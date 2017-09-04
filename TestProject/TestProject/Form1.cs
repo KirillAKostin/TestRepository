@@ -19,8 +19,8 @@ namespace TestProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var name = textBox1.Text;
-            MessageBox.Show(string.Format("Hi {0}", name));
+            var name = textBox1.Text + "- Guest";
+            MessageBox.Show(string.Format("Hi there, {0}", name));
         }
     }
 }
